@@ -7,10 +7,10 @@
 .card-1 {
   border: 10px solid transparent;
   background-color: rgb(192, 194, 195);
-  width: 250px;
+  /* width: 250px; */
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px 5px rgb(247, 227, 227);
+  box-shadow: 8px 8px 5px 5px rgb(245, 230, 230);
   border-image: url(./image/border-image.png) 30 round;
   text-align: center;
 }
@@ -26,9 +26,9 @@
 }
 
 .container {
-  margin-left: 100px;
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  gap: 15px;
+  grid-template-columns: 80px 80px 80px;
   grid-template-rows: 100px 1000 1000px;
-  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
 }
