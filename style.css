@@ -7,7 +7,7 @@
 .card-1 {
   border: 10px solid transparent;
   background-color: rgb(192, 194, 195);
-  /* width: 250px; */
+  width: 250px;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 8px 8px 5px 5px rgb(245, 230, 230);
@@ -26,9 +26,8 @@
 }
 
 .container {
+  margin-left: 50px;
   display: grid;
   gap: 15px;
-  grid-template-columns: 80px 80px 80px;
-  grid-template-rows: 100px 1000 1000px;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-template-columns: 3fr 3fr 3fr;
 }
